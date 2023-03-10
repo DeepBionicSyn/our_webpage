@@ -286,6 +286,23 @@
             our approach and other potential alternatives.
           </p>
         </div>
+
+        <h2 class="title is-3">Methods</h2>
+        <img src="./static/images/methods.png"/>
+        <div class="content has-text-justified">
+          <p>
+            Overview of our framework for 3D biologically inspired design, which combines deep implicit generative modeling
+            and user-in-the-loop interactive. (a) Dataset consist of natural creations as inspiration and man-made artifacts as product target.
+             (b) After training an IMAE, there exist some biologically inspired synthetics in the shape perception boundary in latent space.
+              The trained encoder and decoder form a parametric representation of 3D shape. In latent space, a problem is how to find out
+               creative biologically inspired design. Creativity Synthetic Solver obtains final results via two steps. (c) A hybrid
+               function containing weak-shot classifiers(W-Cls) and quality term is deployed to get high score candidates.
+               Through multimodal optimization sampling, candidates filtered out are recommended to users as if cold start in
+                recommendation. (d) Candidates with high scores are then inputted into a human-in-loop system. The Projector view of the web
+                 interface allows the user to explore the entire design space. After selecting the desired synthetic, a local manifold subspace
+                  search algorithm is employed to explore potential design variants in a slide-bar manner.
+          </p>
+        </div>
       </div>
     </div>
     <!--/ Abstract. -->
@@ -326,6 +343,7 @@
       </div>
     </div>
     <!--/ Animation. -->
+
 
     <h2 class="title is-3">Synthetics</h2>
     <!-- 生成物的视频放到这里来，分成多行，每行4到5列 -->
